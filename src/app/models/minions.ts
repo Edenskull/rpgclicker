@@ -1,2 +1,5 @@
-export class Minions {
+export interface Minions {
+  uid: string;
+  level: number;
+
 }
